@@ -1,88 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Bem-estar e Saúde</title>
+    <title>Bem-Estar e Saúde</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Blog de bem-estar e Saúde</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">home</a></li>
-                    <li><a href="#artigos">Artigos</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Bem-Estar e Saúde</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#artigos">Artigos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="home" class="section">
-        <div class="container">
-            <h2>Bem-vindo ao Blog de Bem-estar e Saúde</h2>
-            <p></p>
-        </div>
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Encontre o equilíbrio perfeito entre corpo, mente e espírito conosco. Nosso site é dedicado a fornecer informações inspiradoras e práticas sobre saúde física e mental, nutrição balanceada, exercícios revitalizantes, técnicas de relaxamento e muito mais. Explore nossos artigos, dicas e recursos para iniciar sua jornada em direção a uma vida mais saudável e feliz. Vamos juntos construir um futuro onde o bem-estar seja a prioridade número um!</p>
     </section>
 
-    <section id="artigos" class="section">
-        <div class="container">
-            <h2>Artigos em Destaque</h2>
-            <div class="article">
-                <h3>5 Dicas para uma Alimentação Saudável</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget mauris in libero rutrum aliquam.</p>
-                <a href="#" class="btn">Leia mais</a>
-            </div>
-            <div class="article">
-                <h3>Como Melhorar sua Rotina de Exercícios</h3>
-                <p>Etiam suscipit justo ac urna accumsan, vitae tristique ligula gravida. Integer sodales, lectus nec cursus ultrices.</p>
-                <a href="#" class="btn">Leia mais</a>
-            </div>
-        </div>
+    <section id="artigos">
+        <h2>Artigos</h2>
+        <article>
+            <h3>Título do Artigo 1</h3>
+            <p>Conteúdo do artigo 1.</p>
+        </article>
+        <article>
+            <h3>Título do Artigo 2</h3>
+            <p>Conteúdo do artigo 2.</p>
+        </article>
     </section>
 
-    <section id="sobre" class="section">
-        <div class="container">
-            <h2>Sobre o Blog</h2>
-            <p>Este blog é dedicado a fornecer dicas, artigos e informações sobre bem-estar e saúde, abrangendo desde nutrição até exercícios físicos, saúde mental e estilo de vida saudável.</p>
-        </div>
-    </section>
-
-    <section id="contato" class="section">
-        <div class="container">
-            <h2>Contato</h2>
-            <p>Para mais informações ou dúvidas, entre em contato conosco através do formulário abaixo:</p>
-            <form action="#" method="post">
-                footer {
-                    background-color: #333;
-                    color: #fff;
-                    text-align: center;
-                    padding: 10px 0;
-                    position: absolute;
-                    width: 100%;
-                    bottom: 0;
-                }
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <button type="submit" class="btn">Enviar Mensagem</button>
-            </form>
-        </div>
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Blog de Bem-estar e Saúde. Todos os direitos reservados.</p>
-        </div>
+        <p>&copy; 2024 Bem-Estar e Saúde. Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
