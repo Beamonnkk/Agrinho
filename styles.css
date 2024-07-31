@@ -95,3 +95,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif; /* Define a família de fontes para todo o corpo do documento */
+}
+
+#sobre {
+    font-family: 'Times New Roman', Times, serif; /* Define a família de fontes específica para a seção 'Sobre' */
+}
+
