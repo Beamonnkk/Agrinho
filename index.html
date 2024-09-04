@@ -3,86 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem-Estar e Saúde</title>
+    <title>Quiz sobre The Walking Dead</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bem-Estar e Saúde</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#artigos">Artigos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+        <h1>Quiz sobre The Walking Dead</h1>
+        <p>Teste seus conhecimentos sobre o mundo dos zumbis com este quiz!</p>
     </header>
-
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <p>Encontre o equilíbrio perfeito entre corpo, mente e espírito conosco. Nosso site é dedicado a fornecer informações inspiradoras e práticas sobre saúde física e mental, nutrição balanceada, exercícios revitalizantes, técnicas de relaxamento e muito mais. Explore nossos artigos, dicas e recursos para iniciar sua jornada em direção a uma vida mais saudável e feliz. Vamos juntos construir um futuro onde o bem-estar seja a prioridade número um!</p>
-    </section>
-
-    <section id="artigos">
-        <h2>Artigos</h2>
-        <article>
-            <h3>Dicas para Alimentação Saudável</h3>
-            <p>Encontre aqui dicas práticas para melhorar sua alimentação e promover sua saúde.</p>
-            <ul>
-                <li><strong>Variedade de Cores:</strong> Consuma frutas e vegetais de cores variadas para obter uma ampla gama de nutrientes.</li>
-                <li><strong>Pequenas Porções e Frequência:</strong> Opte por refeições menores ao longo do dia para manter o metabolismo ativo.</li>
-                <li><strong>Hidratação Adequada:</strong> Beba água regularmente para manter o corpo hidratado e auxiliar na digestão.</li>
-                <li><strong>Substituições Inteligentes:</strong> Troque ingredientes menos saudáveis por alternativas mais nutritivas em suas receitas.</li>
-            </ul>
-        </article>
-        <article>
-            <h3>Exercícios Revitalizantes para o Dia a Dia</h3>
-            <p>Descubra exercícios simples que podem transformar sua rotina e sua disposição.</p>
-            <ul>
-                <li><strong>Caminhada:</strong> Inclua caminhadas diárias para melhorar o condicionamento físico e a saúde cardiovascular.</li>
-                <li><strong>Alongamento:</strong> Pratique alongamentos para melhorar a flexibilidade e prevenir lesões musculares.</li>
-                <li><strong>Respiração Profunda:</strong> Pratique técnicas de respiração para relaxar e reduzir o estresse do dia a dia.</li>
-            </ul>
-        </article>
-        <article>
-            <h3>Meditação e Relaxamento: Como Começar</h3>
-            <p>Aprenda técnicas básicas de meditação para reduzir o estresse e melhorar sua qualidade de vida.</p>
-            <ul>
-                <li><strong>Mindfulness:</strong> Pratique a atenção plena para aumentar a consciência do presente e reduzir a ansiedade.</li>
-                <li><strong>Música Relaxante:</strong> Ouça músicas suaves para ajudar a relaxar e promover um sono tranquilo.</li>
-                <li><strong>Visualização Criativa:</strong> Use visualizações para focar em metas pessoais e aumentar a motivação.</li>
-            </ul>
-        </article>
-        <article>
-            <h3>Benefícios da Caminhada Diária</h3>
-            <p>Descubra por que caminhar regularmente pode ser uma ótima opção para sua saúde física e mental.</p>
-            <ul>
-                <li><strong>Cardiovascular:</strong> Melhora a saúde do coração e reduz o risco de doenças cardiovasculares.</li>
-                <li><strong>Mental:</strong> Reduz o estresse e melhora o humor, promovendo bem-estar emocional.</li>
-                <li><strong>Físico:</strong> Ajuda a controlar o peso, fortalece músculos e articulações, e aumenta a energia.</li>
-            </ul>
-        </article>
-    </section>
-
-    <section id="contato">
-        <h2>Contato</h2>
-        <form id="contactForm">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
-            <label for="message">Mensagem:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Bem-Estar e Saúde. Todos os direitos reservados.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <main>
+        <div id="quiz-container">
+            <!-- As perguntas do quiz serão injetadas aqui pelo JavaScript -->
+        </div>
+        <button id="submit-btn" onclick="submitQuiz()">Enviar Respostas</button>
+        <div id="result"></div>
+    </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
-
-
